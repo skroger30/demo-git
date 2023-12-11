@@ -1,0 +1,40 @@
+
+man <commandName> --> to get manual of that command.
+
+cd <folderName> --> To change the directory.
+
+ls --> to list out files and sub-directories 
+
+ls -a --> to list out hidden files along with non-hidden files and sub-directories.
+ls -l --> to get long files(BYTE format)
+ls -la --> combo of above two.
+ls -lah --> Human readable format for size of a file.
+ls /directoryPath/ --> to list out contents from a particular path
+
+clear --> clears the console
+
+
+mkdir <folderNameToBeCreated> --> to create a directory
+mkdire <folderNameToBeCreated>/<folderNameToBeCreated>/<folderNameToBeCreated> --> To create nested folders
+
+rmdir <folderToBeDeleted> --> to eliminate directory
+rmdir <nestedFolderPathToBeDeleted> --> to eliminate directory and it contents.
+
+
+Note- In Linux everything is considered as file even the directory as well.
+
+file <file name with extention> --> to get the details about mentioned file
+
+touch <file name to be created with extension> --> to create file
+touch file.txt file2.txt file3.txt --> to create multiple files a the same time
+
+rm <fileName> --> to delete file
+rm -i <fileName1> <fileName2> --> to delete multipple files at a time.
+rm -rf <directoryName> --> to delete directory
+
+cp <fileName> <fileNameToBeCopiedWith> --> to copy file with name specified in command
+Note - if we are in same directory where file need to be copied no need to provide directory path before destination file
+
+cp <fileName> </destinationPath/fileNameToCopyWith> --> to copy file at specified location with specified name.
+
+cp -r <sourceDirectory> <destinationDirectory> --> to copy directory and content within
